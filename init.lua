@@ -1,6 +1,5 @@
 noclipsus = {}
 local nodes = {["default:stone"] = true, ["default:desert_stone"] = true, ["default:sand"] = true, ["default:dirt"] = true}
-local stop = false
 local function report(name,ppos,node,vel)
     local text = "[noclipdetect] "..name.." was sus noclipping in "..node.name.." at "..core.pos_to_string(vector.round(ppos))..", velocity: "..core.pos_to_string(vector.round(vel,""))
     core.log("action",text)
